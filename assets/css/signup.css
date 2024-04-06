@@ -1,0 +1,57 @@
+main {
+  display: flex;
+}
+.leftSide {
+  width: 45%;
+  height: 920px;
+  background-image: url("../icons/authLeftSide.svg");
+  background-repeat: no-repeat;
+}
+
+.rightSide {
+  width: 55%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f4fe;
+}
+
+.rightSideInnerBox {
+  width: 498px;
+}
+
+.formContainer {
+  border: 1px solid #107bef;
+  padding: 60px 50px;
+  border-radius: 11.5px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 31px;
+}
+.form label {
+  color: #333333;
+  margin-bottom: 4px;
+}
+
+.form input {
+  padding: 10px;
+  border: 2.31px solid #d2d2d2;
+  border-radius: 4.63px;
+}
+.form input:focus {
+  outline: #333333;
+  border: 2.31px solid #107bef;
+}
+
+button {
+  margin-top: 31px;
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background-color: #107bef;
+  border-radius: 4.63px;
+  color: white;
+  font-size: 18px;
+}
