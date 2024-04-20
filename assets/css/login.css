@@ -6,6 +6,7 @@ main {
   height: 920px;
   background-image: url("../icons/authLeftSide.svg");
   background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .rightSide {

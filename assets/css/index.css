@@ -184,6 +184,7 @@ nav ul {
   background-color: black;
   color: white;
   border-radius: 11.5px;
+  cursor: pointer;
 }
 @media screen and (max-width: 1024px) {
   nav {
@@ -204,9 +205,11 @@ nav ul {
   }
   .course-header {
     text-align: center;
+    color: #107bf0;
   }
   .container-courses {
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
   }
 }
